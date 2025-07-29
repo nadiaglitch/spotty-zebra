@@ -40,6 +40,12 @@ h2 {
   margin-bottom: 30px;  /* Adjust the value for more or less space */
 }
 
+/* List group items background color */
+.list-group-item {
+  background-color: #d3c6b8 !important; /* Override any conflicting styles */
+  border: none; /* Optional: remove the border if you want a clean look */
+}
+
 /* Header */
 header {
     background-color: #d99f38;
@@ -52,5 +58,5 @@ main {
 }
 /* Footer */
 footer {
-    background-color: #b8571d;
+    background-color: #d99f38;
 }

@@ -29,6 +29,17 @@ body {
     font-family: "Finlandica", sans-serif;
 }
 
+/* Section titles */
+.anchor-offset {
+  scroll-margin-top: 55px; /* adjusts scroll position */
+}
+
+/* Add space above and below h2 */
+h2 {
+  margin-top: 30px;  /* Adjust the value for more or less space */
+  margin-bottom: 30px;  /* Adjust the value for more or less space */
+}
+
 /* Header */
 header {
     background-color: #d99f38;

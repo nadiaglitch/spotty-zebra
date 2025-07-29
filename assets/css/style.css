@@ -27,6 +27,7 @@ body {
     /* Generic project styles */
     color: #545454
     font-family: "Finlandica", sans-serif;
+    text-align: justify;
 }
 
 /* Section titles */
@@ -38,6 +39,13 @@ body {
 h2 {
   margin-top: 30px;  /* Adjust the value for more or less space */
   margin-bottom: 30px;  /* Adjust the value for more or less space */
+  font-family: "Chelsea Market", sans-serif;
+  color: #2E2E2E; /* Assign charcoal ink color to headings */
+}
+
+/* Center h3 text */
+h3 {
+    text-align: center;
 }
 
 /* List group items background color */
@@ -59,4 +67,20 @@ main {
 /* Footer */
 footer {
     background-color: #d99f38;
+}
+
+/* Add padding to the body or hero image to avoid overlap with the fixed navbar on mobile screens */
+body {
+  padding-top: 0; /* Default: No padding */
+}
+
+@media (max-width: 767px) {  /* Targeting devices with max width 767px (mobile) */
+  body {
+    padding-top: 30px;  /* Adjusted to the value to match the height of navbar */
+  }
+
+  /* Adjusted the hero image for mobile */
+  header img {
+    margin-top: 30px;  /* Add margin to the top of the image */
+  }
 }

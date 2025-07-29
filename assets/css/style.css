@@ -4,15 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #545454;
+}
+
 /* Header */
 header {
-    background-color: #b8571d;
+    background-color: #d99f38;
 }
 main {
 /* Main content */    
     background-color: #f5ebdd;
+    /* Make main element to take up any surplus space to push footer down */
+    flex: 1 0 auto
 }
 /* Footer */
 footer {
-    background-color: #8b5c2f;
+    background-color: #b8571d;
 }

@@ -1,3 +1,18 @@
+/*Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
+.chelsea-market-regular {
+  font-family: "Chelsea Market", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.finlandica-<uniquifier> {
+  font-family: "Finlandica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* Asterisk wildcard selector to override default styles added by the brower */
 * {
     margin: 0;

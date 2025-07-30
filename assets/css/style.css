@@ -95,7 +95,7 @@ footer {
 /* Shift text down over hero image */
 .hero-text-overlay {
   position: absolute;
-  top: 50%; /* Adjust this value to move lower or higher */
+  top: 35%; /* Adjust this value to move lower or higher */
   left: 50%;
   transform: translateX(-50%);
   text-align: center;

@@ -14,12 +14,15 @@ A vibrant, accessible, and informative website designed to champion **Diversity 
 ## Wireframes for Desktop and Mobile
 
 **Hero**
+
 ![Hero](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-1.png) 
 
 **Key Principles**
+
 ![Key Principles](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-2.png) 
 
 **Best Practices & Resources**
+
 ![Best Practices & Resources](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-3.png) 
 
 ---

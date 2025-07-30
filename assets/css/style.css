@@ -91,3 +91,23 @@ footer {
     margin-top: 30px;  /* Add margin to the top of the image */
   }
 }
+
+/* Shift text down over hero image */
+.hero-text-overlay {
+  position: absolute;
+  top: 50%; /* Adjust this value to move lower or higher */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* Add black outline around text */
+.outlined-text {
+  color: #ffffff; /* White text color */
+  font-family: "Chelsea Market", sans-serif; /* Use the custom font */
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}

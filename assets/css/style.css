@@ -1,110 +1,111 @@
-/*Google fonts import*/
+/* ================= Google Fonts Import ================= */
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* ================= Custom Font Classes ================= */
 .chelsea-market-regular {
   font-family: "Chelsea Market", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-.finlandica-<uniquifier> {
+/* Replace <uniquifier> and <weight> with specific values if needed */
+.finlandica-custom {
   font-family: "Finlandica", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 
-/* Asterisk wildcard selector to override default styles added by the brower */
+/* ================= Reset & Base ================= */
+/* Override default styles added by the browser */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/* General styles */
+
+/* ================= General Body Styles ================= */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #545454;
-    font-family: "Finlandica", sans-serif;
-    text-align: justify;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #545454;
+  font-family: "Finlandica", sans-serif;
+  text-align: justify;
 }
 
-/* Section titles */
+/* ================= Section Titles ================= */
 .anchor-offset {
-  scroll-margin-top: 55px; /* adjusts scroll position */
+  scroll-margin-top: 55px; /* Adjust scroll position for anchor links */
 }
 
-/* Add space above and below h2 */
 h2 {
-  margin-top: 30px;  /* Adjust the value for more or less space */
-  margin-bottom: 30px;  /* Adjust the value for more or less space */
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-family: "Chelsea Market", sans-serif;
-  color: #f5ebdd; /* Assign color to headings */
+  color: #f5ebdd;
 }
 
-/* Center h3 text */
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
-/* List group items background color */
+/* ================= List Group Customization ================= */
 .list-group-item {
-  background-color: #d3c6b8; !important; /* Override any conflicting styles */
-  border: none; /* Optional: remove the border if you want a clean look */
+  background-color: #d3c6b8 !important;
+  border: none;
 }
 
-/* Header */
+/* ================= Header & Navbar ================= */
 header {
-    background-color: #d99f38;
-}
-main {
-/* Change font and color for the navbar-brand */
-.navbar-brand {
-  font-family: "Chelsea Market", sans-serif;  /* Apply custom font */
-  color: #545454;  /* Set the text color */
+  background-color: #d99f38;
 }
 
-/* Main content */    
-    background-color: #d3c6b8;
-    /* Make main element to take up any surplus space to push footer down */
-    flex: 1 0 auto
+.navbar-brand {
+  font-family: "Chelsea Market", sans-serif;
+  color: #545454;
+}
+
+/* ================= Main Content ================= */
+main {
+  background-color: #d3c6b8;
+  flex: 1 0 auto;
 }
 
 .banner {
-    background-image: linear-gradient(to right, #b8571d, #d3c6b8);
-    padding-left: 1rem;
+  background-image: linear-gradient(to right, #b8571d, #d3c6b8);
+  padding-left: 1rem;
 }
 
-/* Footer */
+/* ================= Footer ================= */
 footer {
-    background-color: #d99f38;
+  background-color: #d99f38;
 }
 
-@media (max-width: 767px) {  /* Targeting devices with max width 767px (mobile) */
+/* ================= Responsive Adjustments ================= */
+@media (max-width: 767px) {
   body {
-    padding-top: 30px;  /* Adjusted to the value to match the height of navbar */
+    padding-top: 30px; /* Account for fixed navbar height */
   }
 
-  /* Adjusted the hero image for mobile */
   header img {
-    margin-top: 30px;  /* Add margin to the top of the image */
+    margin-top: 30px;
   }
 }
 
-/* Shift text down over hero image */
+/* ================= Hero Text Overlay ================= */
 .hero-text-overlay {
   position: absolute;
-  top: 35%; /* Adjust this value to move lower or higher */
+  top: 35%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
 }
 
-/* Add black outline around text */
+/* ================= Text Styling ================= */
 .outlined-text {
-  color: #ffffff; /* White text color */
-  font-family: "Chelsea Market", sans-serif; /* Use the custom font */
+  color: #ffffff;
+  font-family: "Chelsea Market", sans-serif;
   text-shadow:
     -1px -1px 0 #000,
      1px -1px 0 #000,

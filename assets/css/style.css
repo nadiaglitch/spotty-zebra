@@ -96,10 +96,37 @@ footer {
 /* ================= Hero Text Overlay ================= */
 .hero-text-overlay {
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+}
+
+/* For screens up to 320px */
+@media (max-width: 320px) {
+  .hero-text-overlay {
+    top: 20%;
+  }
+}
+
+/* For screens 321px to 480px */
+@media (min-width: 321px) and (max-width: 480px) {
+  .hero-text-overlay {
+    top: 30%;
+  }
+}
+
+/* For screens 481px to 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .hero-text-overlay {
+    top: 40%;
+  }
+}
+
+/* For screens above 768px */
+@media (min-width: 769px) {
+  .hero-text-overlay {
+    top: 50%;
+  }
 }
 
 /* ================= Text Styling ================= */

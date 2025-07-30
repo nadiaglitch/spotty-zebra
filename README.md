@@ -11,13 +11,16 @@ A vibrant, accessible, and informative website designed to champion **Diversity 
 
 ---
 
-## Wireframes
+## Wireframes for Desktop and Mobile
 
-| Desktop | Mobile |
-|-----------------------------|-------------------------|
-| ![Wireframes Desktop](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/Page%201.png)| ![Wireframes Mobile](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/Page%204.png)|
-| ![Wireframes Desktop](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/Page%202.png)| ![Wireframes Mobile](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/Page%205.png)|
-| ![Wireframes Desktop](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/Page%203.png)|
+**Hero**
+![Hero](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-1.png) 
+
+**Key Principles**
+![Key Principles](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-2.png) 
+
+**Best Practices & Resources**
+![Best Practices & Resources](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-3.png) 
 
 ---
 
@@ -29,7 +32,56 @@ A vibrant, accessible, and informative website designed to champion **Diversity 
 
 ## User Stories
 
-![Color Palette](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/color-palette.png)
+## User Stories for External Users
+
+1. **Learn Core Concepts**  
+   *As a new visitor unfamiliar with diversity and inclusion,*  
+   I want to quickly understand what diversity and inclusion mean,  
+   so that I can become more aware of their importance in a workplace or educational setting.
+
+2. **Explore Key Principles**  
+   *As a curious learner,*  
+   I want to see clearly defined sections that explain core principles of D&I,  
+   so that I can digest the information in a structured and easy-to-understand format.
+
+3. **Gain Practical Tips**  
+   *As a professional or student,*  
+   I want a concise list of actionable tips for promoting diversity and inclusion,  
+   so that I can start applying these practices in my environment right away.
+
+4. **Access Helpful Resources**  
+   *As a self-guided learner,*  
+   I want to find and click on clearly labeled buttons linking to external resources,  
+   so that I can deepen my understanding and explore further materials.
+
+5. **Accessibility**  
+   *As a user with visual or cognitive impairments,*  
+   I want the page to use accessible colors, fonts, and ARIA roles where appropriate,  
+   so that I can navigate and understand the content without barriers.
+
+---
+
+## User Stories for the Site Owner (Developer/Designer)
+
+1. **Visually Communicate the Message**  
+   *As a site owner,*  
+   I want to create a visually appealing hero section with a compelling message,  
+   so that users are immediately engaged and understand the page's purpose.
+
+2. **Organise Information Effectively**  
+   *As a front-end developer,*  
+   I want to use Bootstrap’s grid system to structure content into clear sections,  
+   so that the information is easy to follow and visually balanced across devices.
+
+3. **Enhance Usability with Bootstrap Components**  
+   *As a designer,*  
+   I want to use Bootstrap’s list group component for displaying best practices,  
+   so that tips are easy to read, well-formatted, and consistent in appearance.
+
+4. **Ensure Navigation is Intuitive**  
+   *As a site creator,*  
+   I want to style external links as Bootstrap buttons,  
+   so that users can easily spot and access valuable external resources.
 
 ---
 

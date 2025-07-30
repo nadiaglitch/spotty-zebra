@@ -96,7 +96,7 @@ footer {
 /* ================= Hero Text Overlay ================= */
 .hero-text-overlay {
   position: absolute;
-  top: 25%;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -104,11 +104,11 @@ footer {
 
 /* ================= Text Styling ================= */
 .outlined-text {
-  color: #ffffff;
   font-family: "Chelsea Market", sans-serif;
+  color: #ffffff;
   text-shadow:
-    -1px -1px 0 #000,
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #000;
+    -2px -2px 0 #545454;
+     2px -2px 0 #545454;
+    -2px  2px 0 #545454;
+     2px  2px 0 #545454;
 }

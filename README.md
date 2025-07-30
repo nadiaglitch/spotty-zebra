@@ -116,3 +116,11 @@ spotty-zebra/
 │
 ├── index.html
 └── README.md
+
+aknowledgement
+bugging
+deployment
+html & css validation
+screenshots
+features - narbar etc
+future features

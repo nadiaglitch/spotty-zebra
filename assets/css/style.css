@@ -104,7 +104,7 @@ footer {
 /* For screens up to 320px */
 @media (max-width: 320px) {
   .hero-text-overlay {
-    top: 20%;
+    top: 10%;
   }
 }
 

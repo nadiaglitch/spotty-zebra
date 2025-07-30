@@ -1,7 +1,7 @@
 # Spotty Zebra
 A vibrant, accessible, and informative website designed to champion **Diversity & Inclusion (D&I)** across workplaces and educational settings. **Spotty Zebra** helps visitors understand key principles, best practices, and access curated resources for promoting inclusion, equity, and belonging.
 
-![Responsive Devices](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/devices-mockup.png) 
+![Responsive Devices](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/devices-mockup.jpeg) 
 
 ---
 

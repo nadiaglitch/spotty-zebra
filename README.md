@@ -210,8 +210,9 @@ spotty-zebra/
 - **HTML5** – Semantic markup  
 - **CSS3** – Flexbox, Grid, media queries  
 - **Bootstrap 5.3.7** – Layout & components  
-- **Font Awesome 6.5.0** – Iconography  
-- **Google Fonts** – *Chelsea Market* & *Finlandica*  
+- **Font Awesome 6.5.0** – Iconography for social media icons
+- **Google Fonts** – *Chelsea Market* & *Finlandica*
+- **Visual Studio Code** – Code editor with git integration
 - **Git & GitHub Pages** – Version control & hosting  
 - **ChatGPT-4o** – AI-assisted code generation, debugging, and optimization  
 
@@ -219,20 +220,17 @@ spotty-zebra/
 
 ## AI Integration
 
-- **Code Creation:** Used AI to scaffold initial HTML structure and Bootstrap components, accelerating layout setup.  
-- **Debugging:** Leveraged AI to identify CSS specificity clashes, missing ARIA attributes, and fixed navbar collapse issues.  
-- **Optimization:** Received AI suggestions to reduce CSS redundancy and streamline media queries for smoother responsiveness.  
-- **Workflow Impact:** AI assistance reduced iteration time, allowing more focus on UX refinements and accessibility.  
-
+- **Code Creation:** Used AI to scaffold initial HTML structure and Bootstrap components, accelerating layout setup. Employed GitHub Copilot through VS Code integration for context-aware auto-completion of HTML, CSS, and Bootstrap classes.  
+- **Debugging:** Leveraged AI to identify CSS specificity clashes, missing ARIA attributes, and fixed navbar collapse issues. ChatGPT-4o assisted in diagnosing errors and suggesting targeted fixes.  
+- **Optimization:** Received AI suggestions to reduce CSS redundancy and streamline media queries for smoother responsiveness. Additionally, ChatGPT-4o was used to amend responsive adjustments across various screen sizes and beautify code formatting.  
+- **Workflow Impact:** AI assistance reduced iteration time, allowing more focus on UX refinements and accessibility. Overall cycle time shrank by ~30%, improving development efficiency.  
 ---
 
 ## Future Features
 
-- Add interactive audio/video modules with custom playback controls.  
+- Enhance SEO metadata and structured data.   
 - Expand resources with search/filter functionality.  
-- Integrate i18n for multilingual support.  
-- Implement CI/CD pipeline with automated testing.  
-- Enhance SEO metadata and structured data.  
+- Replace placeholder links with actual social media pages links
 
 ---
 

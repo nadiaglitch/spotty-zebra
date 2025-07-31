@@ -1,7 +1,20 @@
 # Spotty Zebra
+
+[1. Introduction](#introduction)
+
+[2. Live Demo](#live-demo)
+
+[3. Project Goals](#project-goals)
+
+[4. Wireframes](#wireframes)
+
+[5. Color Palette](#color-palette)
+
+
+## Introduction
 A vibrant, accessible, and informative website designed to champion **Diversity & Inclusion (D&I)** across workplaces and educational settings. **Spotty Zebra** helps visitors understand key principles, best practices, and access curated resources for promoting inclusion, equity, and belonging.
 
-![Responsive Devices](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/devices-mockup.jpeg) 
+![Responsive Devices](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/responsive.png) 
 
 ---
 
@@ -11,29 +24,7 @@ A vibrant, accessible, and informative website designed to champion **Diversity 
 
 ---
 
-## Wireframes for Desktop and Mobile
-
-**Hero**
-
-![Hero](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-1.png) 
-
-**Key Principles**
-
-![Key Principles](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-2.png) 
-
-**Best Practices & Resources**
-
-![Best Practices & Resources](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-3.png) 
-
----
-
-## Color Palette
-
-![Color Palette](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/color-palette.png)
-
----
-
-## User Stories
+## Project Goals
 
 ## User Stories for External Users
 
@@ -88,6 +79,29 @@ A vibrant, accessible, and informative website designed to champion **Diversity 
 
 ---
 
+## Wireframes
+Wireframes for desktop and mobile.
+
+**Hero**
+
+![Hero](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-1.png) 
+
+**Key Principles**
+
+![Key Principles](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-2.png) 
+
+**Best Practices & Resources**
+
+![Best Practices & Resources](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/wireframes-3.png) 
+
+---
+
+## Color Palette
+
+![Color Palette](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/color-palette.png)
+
+---
+
 ## Technologies Used
 
 - **HTML5** – semantic, accessible markup
@@ -124,3 +138,6 @@ html & css validation
 screenshots
 features - narbar etc
 future features
+
+![Responsive Devices](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/lighthouse-mobile.png) 
+

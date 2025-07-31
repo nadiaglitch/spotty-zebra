@@ -122,7 +122,8 @@ A vibrant, accessible, and informative one-page website designed to champion **D
 ### Responsive Design
 
 - **Media Queries & Bootstrap Grid:** Layout adapts at 320px, 480px, 768px, 992px breakpoints.  
-- **Tested On:** Mobile, tablet, and desktop viewports.  
+- **Tested On:** Mobile, tablet, and desktop viewports.
+  
 ![Responsive Devices](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/responsive.png)
 
 ---
@@ -131,15 +132,20 @@ A vibrant, accessible, and informative one-page website designed to champion **D
 
 ### HTML & CSS Validation
 
-- **W3C Validator:** 0 errors  
-  ![HTML Validator](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/html-validator.png)  
-- **Jigsaw CSS Validator:** 4 errors  
+- **W3C Validator:** 0 errors
+  
+  ![HTML Validator](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/html-validator.png)
+  
+- **Jigsaw CSS Validator:** 4 errors
+  
   ![CSS Validator](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/css-validator.png)
 
-Property font-optical-sizing is part of the CSS Fonts Module Level 4 (for variable fonts with optical-size axes), and the W3C validator (set to CSS 3) doesn’t know it.
-Resolution: Wrap it in an @supports so browsers that understand it will apply it, and the validator will ignore it.
+**Parse error: in original code each shadow was on its own line ending with a semicolon but text-shadow is a single property that takes a comma-separated list of shadows, ending in one semicolon. Corrected.**
 
-Parse error: in original code each shadow was on its own line ending with a semicolon but text-shadow is a single property that takes a comma-separated list of shadows, ending in one semicolon. Corrected.
+  ![CSS Validator](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/css-validator2.png)
+
+**Property font-optical-sizing is part of the CSS Fonts Module Level 4 (for variable fonts with optical-size axes), and the W3C validator (set to CSS 3) doesn’t know it.
+Resolution: Wrap it in an @supports so browsers that understand it will apply it, and the validator will ignore it.**
 
 ---
 
@@ -149,10 +155,11 @@ Parse error: in original code each shadow was on its own line ending with a semi
   - Performance: 70  
   - Accessibility: 93  
   - Best Practices: 96  
-  - SEO: 100  
+  - SEO: 100
+    
   ![Lighthouse Results](https://github.com/nadiaglitch/spotty-zebra/blob/main/assets/images/lighthouse-mobile.png)
 
-A mobile performance score of 70 falls into the “needs improvement” range. THis means that in future feaures, we need to prioritize deferring non-critical resources, optimizing images, and leveraging caching to significantly speed up load times.
+A mobile performance score of 70 falls into the “needs improvement” range. This means that in future feaures, we need to prioritize deferring non-critical resources, optimizing images, and leveraging caching to significantly speed up load times.
 
 ---
 
@@ -228,13 +235,15 @@ spotty-zebra/
 
 ## Future Features
 
+- Deferr non-critical resources, optimize images, and leverage caching to significantly speed up load times to improve Lighthouse performance score.
 - Enhance SEO metadata and structured data.   
 - Expand resources with search/filter functionality.  
-- Replace placeholder links with actual social media pages links
+- Replace placeholder links with actual social media pages links.
 
 ---
 
 ## Acknowledgements
 - **Code Institute:** *Marko Tot, Mark Briscoe, Roman Takic* for ongoing mentorship and guidance.
-- **Harvard Business School:** *How to Champion D&I in the Workplace*  
-- **UNESCO:** *Inclusion in Education*  
+- **Harvard Business School:** *How to Champion D&I in the Workplace?*  
+- **UNESCO:** *Inclusion in Education.* 
+- **ChatGPT-4o:** *AI generated text and images.* 

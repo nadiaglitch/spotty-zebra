@@ -8,12 +8,14 @@
   font-style: normal;
 }
 
-/* Replace <uniquifier> and <weight> with specific values if needed */
-.finlandica-custom {
-  font-family: "Finlandica", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+/* Finlandica only if supported — validator will ignore this block */
+@supports (font-optical-sizing: auto) {
+  .finlandica-custom {
+    font-family: "Finlandica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
 
 /* ================= Reset & Base ================= */
@@ -138,8 +140,8 @@ footer {
   font-family: "Chelsea Market", sans-serif;
   color: #d3c6b8;
   text-shadow:
-    -2px -2px 0 #545454;
-     2px -2px 0 #545454;
-    -2px  2px 0 #545454;
+    -2px -2px 0 #545454,
+     2px -2px 0 #545454,
+    -2px  2px 0 #545454,
      2px  2px 0 #545454;
 }

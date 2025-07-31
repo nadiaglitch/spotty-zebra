@@ -87,6 +87,7 @@ A vibrant, accessible, and informative one-page website designed to champion **D
 ---
 
 ## Color Palette
+
 ![Color Palette](assets/images/color-palette.png)  
 
 ---

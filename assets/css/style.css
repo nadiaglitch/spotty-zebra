@@ -50,6 +50,10 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  text-align: center;
+}
+
 /* ================= List Group Customization ================= */
 .list-group-item {
   background-color: #d3c6b8 !important;
